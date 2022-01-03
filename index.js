@@ -1,8 +1,7 @@
 let latitude = 22.3511148;
 let longitude = 78.6677428;
 
-mapboxgl.accessToken =
-  "pk.eyJ1IjoiaXR6YXNodTM5NyIsImEiOiJja3h5Z3AwcHU1MGI2Mnh1YmYwaDdjMGl3In0.rBF1EuxSqMsMKF1oXAzidQ";
+mapboxgl.accessToken = "your mapbox token";
 
 var map = new mapboxgl.Map({
   container: "map",
