@@ -1,14 +1,14 @@
-let latitude = 19.7515;
-let longitude = 75.7139;
+let latitude = 22.3511148;
+let longitude = 78.6677428;
 
 mapboxgl.accessToken =
-  "pk.eyJ1IjoiYXNodXRvc2gzOTciLCJhIjoiY2t1Zmtmbnh1MDBsazJ2bm1mcXg2NjF3NiJ9.TOIQTLTbWC15NjJ7PjDOUg";
+  "pk.eyJ1IjoiaXR6YXNodTM5NyIsImEiOiJja3h5Z3AwcHU1MGI2Mnh1YmYwaDdjMGl3In0.rBF1EuxSqMsMKF1oXAzidQ";
 
 var map = new mapboxgl.Map({
   container: "map",
-  style: "mapbox://styles/mapbox/streets-v11",
+  style: "mapbox://styles/mapbox/outdoors-v11",
   center: [longitude, latitude],
-  zoom: 3.6,
+  zoom: 5,
 });
 
 map.addControl(
